@@ -1,3 +1,4 @@
+
 def minion_game(String):
     #your code goes here
     k=0
@@ -8,11 +9,11 @@ def minion_game(String):
             k+=len(String)-i
         else:
                 s+=len(String)-i
-                if k>s:
+    if k>s:
                     print("Kevin",k)
-                elif s>k:
+    elif s>k:
                     print("Stuart",s)
-                else :
+    else :
                       print("Draw")
 if __name__=='__main__':
   s=input()
