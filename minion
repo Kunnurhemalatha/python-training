@@ -1,0 +1,20 @@
+def minion_game(String):
+    #your code goes here
+    k=0
+    s=0
+    v="AEIOU"
+    for i in range (len(String)):
+        if String[i] in  v:
+            k+=len(String)-i
+        else:
+                s+=len(String)-i
+                if k>s:
+                    print("Kevin",k)
+                elif s>K:
+                    print("Stuart",s)
+                else :
+                      print("Draw")
+
+s=input()
+minion_game(s)
+                    
